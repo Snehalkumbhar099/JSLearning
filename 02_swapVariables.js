@@ -5,9 +5,9 @@ var cutie = " cutie"
 console.log( sweety,cutie);
 console.log("-------------After swap------------");
 temp=cutie;
-sweety=cutie;
-temp=sweety;
-console.log( sweety,temp);
+cutie=sweety;
+sweety=temp;
+console.log( sweety,cutie);
 console.log("*******************   2     *********************");
 console.log("-------------Before swap------------");
 var num = 100;
