@@ -1,6 +1,6 @@
 function eligible(gradScore,hscScore,ssscore,candidateName) {
 
- var result =   (gradScore>=70 && hscScore>=80 &&ssscore>=90 ) ?`Congratulation ${candidateName} you are eligible for TCS interview` :`unfortunately ${candidateName} you are not eligible for interview`;
+ var result =   (gradScore>=70 || hscScore>=80 || ssscore>=90 ) ?`Congratulation ${candidateName} you are eligible for TCS interview` :`unfortunately ${candidateName} you are not eligible for interview`;
     return result;
 }
  var result = eligible(80,86,90,"snehal");
