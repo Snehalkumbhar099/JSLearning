@@ -26,7 +26,7 @@ function gradeCalculation(marks) {
     console.log(`invalid marks :${marks},please enter valid marks `);
   }
 
-  if (marks >= 90) {
+  if (marks >= 90 && marks<=100) {
     console.log(`funtastic marks : ${marks} your grade is A+`);
   }
   if (marks >= 70 && marks < 90) {
@@ -36,11 +36,11 @@ function gradeCalculation(marks) {
     console.log(`Good marks : ${marks} your grade is B`);
   }
   if (marks >= 35 && marks < 50) {
-    console.log(` marks is : ${marks} your grade is C Need Improvement`);
+    console.log(`marks is : ${marks} your grade is C Need Improvement`);
   }
 
-  if (marks < 35) {
-    console.log(` marks is : ${marks} your grade is Fail`);
+  if (marks < 35 && marks >0) {
+    console.log(`marks is : ${marks} your grade is Fail`);
   }
 }
 gradeCalculation(98);
